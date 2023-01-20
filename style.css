@@ -1,0 +1,49 @@
+
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  background-color: #17181c;
+  margin: 0;
+}
+body {
+  overflow: hidden;
+}
+.main {
+  height: 100vh;
+  border: 5px solid rgba(255, 255, 255, 0.432);
+}
+#ball {
+  width: 20px;
+  height: 20px;
+  background-color: #d7f9ff;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  border: 2px solid #33cde8;
+  border-radius: 10px;
+  box-shadow: 0 0 31px #4fd0e738;
+}
+.bar {
+  width: 20px;
+  height: 120px;
+  background-color: #fff;
+  box-shadow: 0 0 31px #4fd0e738;
+}
+#bar1 {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  /* float: left; */
+}
+#bar2 {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+#line {
+  width: 50%;
+  border-right: #83d1de1a solid 5px;
+  height: 100%;
+}
